@@ -1,0 +1,105 @@
+body {
+  background: #EEE;
+  font-family: sans-serif;
+  margin: 20px;
+  -webkit-user-select: none;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #33658A;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#game-over {
+  background: rgba(90, 210, 210, 0.8);
+  border-radius: 8px;
+  bottom: 0;
+  color: #33658A;
+  font-size: 60px;
+  left: 0;
+  padding-top: 190px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+#board {
+  background: #666;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+}
+
+.row {
+  overflow: auto;
+}
+
+.tile {
+  background: #CCC;
+  border-radius: 4px;
+  color: #FFF;
+  float: left;
+  font-size: 50px;
+  height: 100px;
+  line-height: 100px;
+  margin: 5px;
+  text-align: center;
+  width: 100px;
+}
+
+.tile-2 {
+  background: rgb(152, 200, 226);
+}
+
+.tile-4 {
+  background: rgb(76, 178, 233);
+}
+
+.tile-8 {
+  background: #33658A;
+}
+
+.tile-16 {
+  background: rgb(36, 82, 117);
+}
+
+.tile-32 {
+  background: #2F4858;
+}
+
+.tile-64 {
+  background: rgb(38, 63, 78);
+}
+
+.tile-128 {
+  background: #F6AE2D;
+}
+
+.tile-256 {
+  background: rgb(204, 135, 6);
+}
+
+.tile-512 {
+  background: #F26419;
+}
+
+.tile-1024 {
+  background: rgb(245, 90, 7);
+  font-size: 40px;
+}
+
+.tile-2048 {
+  background: #E0F506;
+  font-size: 40px;
+}
