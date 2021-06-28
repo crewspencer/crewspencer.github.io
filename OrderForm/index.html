@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <h1>Web Development</h1>
+    <form id="app">
+        <ul>
+            <li v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{'active':service.active}">
+                {{ service.name }} <span> {{service.price}}</span>
+            </li>
+        </ul>
+
+        <!-- list the services and the prices-->
+        <!-- Total at bottom  of all active services-->
+
+        <div class="total">
+            Total: <span>{{ total}}</span>
+        </div>
+
+    </form>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="app.js"></script>
+</html>
